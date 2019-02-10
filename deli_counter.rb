@@ -12,9 +12,13 @@ def line(people)
       phrase += "#{line_number}. #{person}"
       phrase += " " unless line_number == people.length 
       line_number += 1
-
-
 end
     puts phrase
   end
+end
+
+def take_a_number(katz_deli, name)
+  katz_deli.push(name)
+  return "Welcome, #{name}. You are number #{katz_deli.length} in line."
+
 end
