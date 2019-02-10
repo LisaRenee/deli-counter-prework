@@ -9,7 +9,7 @@ def line(people)
     line_number = 1
     phrase = "The line is currently: "
     people.each do |person|
-      phrase += "#{line_number}. #{person} "
+      phrase += "#{line_number}. #{person}"
       line_number += 1
 
 
