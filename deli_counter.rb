@@ -10,7 +10,7 @@ def line(people)
     phrase = "The line is currently: "
     people.each do |person|
       phrase += "#{line_number}. #{person}"
-      phrase += " " unless line_number == people.length 
+      phrase += " " unless line_number == people.length
       line_number += 1
 end
     puts phrase
